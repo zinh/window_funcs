@@ -89,7 +89,7 @@ min(eric) = min(70, 70)
 <pre>
 select
 name, weight,
-min(weight) over (order by name ROWS between 1 preceeding and 1 following)
+min(weight) over (order by name ROWS between 1 preceding and 1 following)
 from runners order by name
 </pre>
 
